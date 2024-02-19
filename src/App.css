@@ -73,3 +73,19 @@
   left: 274px;
 
 }
+
+.upper-right-corner {
+  position: fixed;
+  bottom: -50px;
+  left: 10px;
+  z-index: 1000;
+  width: 200px;
+}
+
+.lower-left-corner {
+  position: fixed;
+  bottom: 10px;
+  left: 220px;
+  z-index: 1000;
+  width: 200px;
+}
