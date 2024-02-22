@@ -6,6 +6,7 @@ import Epic from './content/error/Epic';
 import Kvent from './content/kvent/Kventan';
 import Atlist from './content/Good/Atlist';
 import Registor from './kalector/Start/Registor';
+import Lor from'./kalector/log/Lor';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <Route path="/Kvent" element={<Kvent />} />
       <Route path="/Goodi" element={<Atlist />} />
       <Route path='/Register' element={<Registor />}/>
+      <Route path='/Lor' element={<Lor />}/>
       {/* Добавьте другие маршруты здесь */}
     </Routes>
   );

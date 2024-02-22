@@ -14,16 +14,11 @@
   justify-content: center;
   align-items: center;
   backdrop-filter: blur(8px); /* Эффект размытия для заднего фона */
-  
-}
-.authorization-container{
   background-image:url('https://s3-alpha-sig.figma.com/img/6b2c/c67b/1b17c75864b56e63a09c349e51601756?Expires=1709510400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=jSySiXSS8pjBe4rtaNtViAaA1nLJqfv8qv7yq8VbrgucruM3zNluY-Tm23tdbTrzrw5aw2gtIDTHVE9lQ8tr5HHeaZBUsta9JKiVOqQZJpwXwK4vt6-UxUPcXufdA7EvDv12IA8Oi2lcjcpaCKlykugNcelLNgL0DbsBHoi~h6v7ul~wzUw2YGTyjKoIUPl31SYNwcjrFD4jHpAWdh4-d~~Ep03mGipMu4D~li67IzuQgkEFN6LFn~OSQ~~Q1VoMXMouAiRGj8bsC~nCdpGJvsoYcN1VTryzXl7bBjthZkLzlIapLMCrj~gUgA1xphBg2HvwuuIN51RVG08tLtwwVg__'); /* Полупрозрачный фон */
-  background-position: center center; /* Центрирование изображения */
-  background-repeat: no-repeat; /* Не повторять изображение */
-  background-attachment: fixed; /* Фиксирует фоновое изображение */
-  background-size: cover; /* Растягивает изображение, чтобы оно покрывало весь элемент */
-  height: 100vh; /* Высота элемента равна 100% видимой части окна браузера */
-  width: 100vw; /* Ширина элемента равна 100% видимой части окна браузера */
+    background-position: center center; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed; 
+    background-size: cover; 
 }
 
 .authorization-box {

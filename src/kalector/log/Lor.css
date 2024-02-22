@@ -12,14 +12,13 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    backdrop-filter: blur(8px); /* Эффект размытия для заднего фона */
+    backdrop-filter: blur(8px); 
     background-image:url('https://s3-alpha-sig.figma.com/img/6b2c/c67b/1b17c75864b56e63a09c349e51601756?Expires=1709510400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=jSySiXSS8pjBe4rtaNtViAaA1nLJqfv8qv7yq8VbrgucruM3zNluY-Tm23tdbTrzrw5aw2gtIDTHVE9lQ8tr5HHeaZBUsta9JKiVOqQZJpwXwK4vt6-UxUPcXufdA7EvDv12IA8Oi2lcjcpaCKlykugNcelLNgL0DbsBHoi~h6v7ul~wzUw2YGTyjKoIUPl31SYNwcjrFD4jHpAWdh4-d~~Ep03mGipMu4D~li67IzuQgkEFN6LFn~OSQ~~Q1VoMXMouAiRGj8bsC~nCdpGJvsoYcN1VTryzXl7bBjthZkLzlIapLMCrj~gUgA1xphBg2HvwuuIN51RVG08tLtwwVg__'); /* Полупрозрачный фон */
-    background-position: center center; 
+    background-position: center center;
     background-repeat: no-repeat; 
     background-attachment: fixed; 
     background-size: cover; 
   }
-  
   .authorization-box {
     width: 660px;
     height: 450px;
@@ -27,7 +26,7 @@
     border-radius: 6px; /* Скругление углов */
     box-shadow: 0 4px 10px #00000080; /* Тень для элемента */
     background: #424B59;
-  
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -45,34 +44,20 @@
     letter-spacing: 0em;
     text-align: center;
     border-radius: 6px;
-  
+    margin:0;
   }
   
   .authorization-box p {
-    color: #fff; /* Цвет текста */
     font-family: 'Graffiti1CTT', sans-serif;
     font-size: 24px;
     font-weight: 400;
     line-height: 22px;
     letter-spacing: 0em;
     text-align: center;
-    margin: 37px;
+    margin: 23px;
+    font-size: 25px;
+  margin-bottom: 1em;
   }
-  
-  .auth-icon {
-   
-    border-radius: 50%; /* Круглая форма иконки */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 30px; /* Размер шрифта иконки */
-    width: 93px;
-    height: 93px;
-    top: 257px;
-    left: 274px;
-  
-  }
-  
   .upper-right-corner {
     position: fixed;
     bottom: -50px;
@@ -88,3 +73,47 @@
     z-index: 1000;
     width: 200px;
   }
+.upper-right-corner,
+.lower-left-corner {
+  position: absolute;
+}
+
+.link-button {
+  padding: 12px 30px;
+  font-family: 'Graffiti1CTT', Arial, sans-serif;
+  font-size: 18px; 
+  font-weight: bold; 
+  color: white; 
+  background-color: #DEE2E6;
+  border: none;
+  border-radius: 2px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  transition: transform 0.1s ease-in-out, background-color 0.2s; 
+  text-decoration: none; 
+  margin: 10px;
+}
+
+.link-button:hover {
+  background-color: #2979ff;
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3); 
+}
+
+.link-button:active {
+  transform: scale(0.95); 
+}
+.next-button {
+  padding: 12px 30px;
+  font-family: 'Graffiti1CTT', Arial, sans-serif;
+  font-size: 18px; 
+  font-weight: bold; 
+  color: white; 
+  background-color: #3498db;
+  border: none;
+  border-radius: 2px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  transition: transform 0.1s ease-in-out, background-color 0.2s; 
+  text-decoration: none; 
+  margin: 25px;
+}
